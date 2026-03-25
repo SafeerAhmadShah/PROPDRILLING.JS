@@ -1,3 +1,10 @@
+
+
+// function Parent({ name }) {
+//   return <Child name={name} />;
+// }
+
+
 import React from "react";
 import Child from "./Child";
 

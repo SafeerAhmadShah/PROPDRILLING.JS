@@ -1,10 +1,13 @@
+
 import React from "react";
 import Parent from "./components/Parent";
 
 function App() {
+  const name = "Safeer Ahmad Shah";
+
   return (
     <div>
-      <Parent name="Safeer Ahmad Shah" />
+      <Parent name={name} /> 
     </div>
   );
 }

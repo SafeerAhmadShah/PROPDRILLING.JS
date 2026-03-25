@@ -1,3 +1,10 @@
+
+
+// function Child({ name }) {
+//   return <GrandGrand name={name} />;
+// }
+
+
 import React from "react";
 import GrandGrand from "./GrandGrand";
 
