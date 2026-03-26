@@ -1,8 +1,8 @@
 import React from "react";
-import GrandGrand from "./GrandGrand";
+import GrandChild from "./GrandChild";
 
-function Child({ name }) {
-  return <GrandGrand name={name} />;
+function Child() {
+  return <GrandChild />;
 }
 
 export default Child;

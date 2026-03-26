@@ -1,11 +1,13 @@
 import React from "react";
+import UserProvider from "./context/UserContext";
 import Parent from "./components/Parent";
+import "./App.css";
 
 function App() {
   return (
-    <div>
-      <Parent name="Safeer Ahmad Shah" />
-    </div>
+    <UserProvider>
+      <Parent />
+    </UserProvider>
   );
 }
 

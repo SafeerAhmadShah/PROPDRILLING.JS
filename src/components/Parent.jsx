@@ -1,8 +1,8 @@
 import React from "react";
 import Child from "./Child";
 
-function Parent({ name }) {
-  return <Child name={name} />;
+function Parent() {
+  return <Child />;
 }
 
 export default Parent;
